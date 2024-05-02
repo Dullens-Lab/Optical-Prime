@@ -106,12 +106,16 @@
 			<Item Name="SLM ImageGen.lvlib" Type="Library" URL="../../../Optical Prime/software/Habibs Playground/C/Program Files/National Instruments/LabVIEW 2020/user.lib/SLM ImageGen/SLM ImageGen.lvlib"/>
 			<Item Name="Spot Params.ctl" Type="VI" URL="/C/Users/pcsm-user/Downloads/TweezerTron-main/TweezerTron-main/_Controls/Spot Params.ctl"/>
 			<Item Name="Timer_actions.ctl" Type="VI" URL="../_controls/Timer_actions.ctl"/>
+			<Item Name="Unbundle and Calc Fresnel.vi" Type="VI" URL="../Instruments/SLM/Unbundle and Calc Fresnel.vi"/>
+			<Item Name="Unbundle and Calc Grating.vi" Type="VI" URL="../Instruments/SLM/Unbundle and Calc Grating.vi"/>
+			<Item Name="Unbundle and Calc LG.vi" Type="VI" URL="../Instruments/SLM/Unbundle and Calc LG.vi"/>
 			<Item Name="VarToData - TimeSeries.vi" Type="VI" URL="../Instruments/xiCam/VarToData - TimeSeries.vi"/>
 			<Item Name="Ventus - Connect.vi" Type="VI" URL="../Instruments/Ventus/Ventus - Connect.vi"/>
 			<Item Name="Ventus - Query Error.vi" Type="VI" URL="../Instruments/Ventus/Ventus - Query Error.vi"/>
 			<Item Name="Ventus - Update Power.vi" Type="VI" URL="../Instruments/Ventus/Ventus - Update Power.vi"/>
 			<Item Name="Ventus Control.ctl" Type="VI" URL="../_controls/Ventus Control.ctl"/>
 			<Item Name="Write Settings XML.vi" Type="VI" URL="../Logging/Write Settings XML.vi"/>
+			<Item Name="Zernike calc.vi" Type="VI" URL="../Instruments/SLM/Zernike calc.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
