@@ -1,0 +1,187 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<LvVariant>
+<Name>Variant</Name>
+<Cluster>
+<Name></Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<String>
+<Name>date string</Name>
+<Val>07/05/2024</Val>
+</String>
+<String>
+<Name>time string</Name>
+<Val>18:13</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Value</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Experiment Type</Name>
+<Val>Time Series</Val>
+</String>
+<String>
+<Name>Experiment Name</Name>
+<Val>Experiment_1</Val>
+</String>
+<Path>
+<Name>ExpPath</Name>
+<Val>D:\Data</Val>
+</Path>
+<String>
+<Name>Save As</Name>
+<Val>TIFF</Val>
+</String>
+<I32>
+<Name>TSFrames</Name>
+<Val>1000</Val>
+</I32>
+<I64>
+<Name>TSperiod</Name>
+<Val>1</Val>
+</I64>
+<Boolean>
+<Name>Streaming</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>tdms ref</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<I64>
+<Name>frame #</Name>
+<Val>0</Val>
+</I64>
+<Path>
+<Name>Full Path</Name>
+<Val></Val>
+</Path>
+<Boolean>
+<Name>PeakOnQueue</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Value</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Ventus Power</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Open Serial</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>VISA Refnum</Name>
+<RefKind>VISA</RefKind>
+<Val>ASRL5::INSTR</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Value</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Exposure Time (ms)</Name>
+<Val>27</Val>
+</U32>
+<Refnum>
+<Name>cam0 Session</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>IMAQdx</RefType>
+<Val>cam0</Val>
+</Refnum>
+</Cluster>
+<Array>
+<Name>Value</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Value</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>Width</Name>
+<Val>1920.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Height</Name>
+<Val>1152.00000000000000</Val>
+</DBL>
+<I32>
+<Name>Board ID</Name>
+<Val>1</Val>
+</I32>
+<DBL>
+<Name>Centre Y</Name>
+<Val>0.47500000000000</Val>
+</DBL>
+<DBL>
+<Name>Centre X</Name>
+<Val>0.48500000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>
