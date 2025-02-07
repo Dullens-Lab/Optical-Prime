@@ -1,25 +1,25 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>20.0</Version>
+<Version>20.0f1</Version>
 <LvVariant>
 <Name>Variant</Name>
 <Cluster>
-<Name></Name>
+<Name>OpticalPrime Ctrls For Saving</Name>
 <NumElts>6</NumElts>
 <Cluster>
-<Name></Name>
+<Name>Time Stamp</Name>
 <NumElts>2</NumElts>
 <String>
 <Name>date string</Name>
-<Val>07/05/2024</Val>
+<Val>07/02/2025</Val>
 </String>
 <String>
 <Name>time string</Name>
-<Val>18:13</Val>
+<Val>17:15</Val>
 </String>
 </Cluster>
 <Cluster>
-<Name>Value</Name>
+<Name>Exp Params</Name>
 <NumElts>11</NumElts>
 <String>
 <Name>Experiment Type</Name>
@@ -27,27 +27,27 @@
 </String>
 <String>
 <Name>Experiment Name</Name>
-<Val>Experiment_1</Val>
+<Val>qwerty5</Val>
 </String>
 <Path>
 <Name>ExpPath</Name>
-<Val>D:\Data</Val>
+<Val>E:\Data\Test</Val>
 </Path>
 <String>
 <Name>Save As</Name>
-<Val>TIFF</Val>
+<Val>TDMS</Val>
 </String>
 <I32>
 <Name>TSFrames</Name>
-<Val>1000</Val>
+<Val>10</Val>
 </I32>
-<I64>
-<Name>TSperiod</Name>
-<Val>1</Val>
-</I64>
+<DBL>
+<Name>TSfps</Name>
+<Val>1.00000000000000</Val>
+</DBL>
 <Boolean>
 <Name>Streaming</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Refnum>
 <Name>tdms ref</Name>
@@ -64,11 +64,11 @@
 </Path>
 <Boolean>
 <Name>PeakOnQueue</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
-<Name>Value</Name>
+<Name>Ventus Controls</Name>
 <NumElts>3</NumElts>
 <DBL>
 <Name>Ventus Power</Name>
@@ -81,15 +81,15 @@
 <Refnum>
 <Name>VISA Refnum</Name>
 <RefKind>VISA</RefKind>
-<Val>ASRL5::INSTR</Val>
+<Val>ASRL4::INSTR</Val>
 </Refnum>
 </Cluster>
 <Cluster>
-<Name>Value</Name>
-<NumElts>2</NumElts>
+<Name>Camera Controls</Name>
+<NumElts>4</NumElts>
 <U32>
 <Name>Exposure Time (ms)</Name>
-<Val>207</Val>
+<Val>27</Val>
 </U32>
 <Refnum>
 <Name>cam0 Session</Name>
@@ -97,16 +97,96 @@
 <RefType>IMAQdx</RefType>
 <Val>cam0</Val>
 </Refnum>
+<Cluster>
+<Name>Camera ROI</Name>
+<NumElts>4</NumElts>
+<U32>
+<Name>Width</Name>
+<Val>512</Val>
+</U32>
+<U32>
+<Name>Height</Name>
+<Val>428</Val>
+</U32>
+<U32>
+<Name>Offset X</Name>
+<Val>756</Val>
+</U32>
+<U32>
+<Name>Offset Y</Name>
+<Val>616</Val>
+</U32>
+</Cluster>
+<String>
+<Name>Command</Name>
+<Val></Val>
+</String>
 </Cluster>
 <Array>
-<Name>Value</Name>
-<Dimsize>2</Dimsize>
+<Name>Spot Params</Name>
+<Dimsize>4</Dimsize>
 <Cluster>
 <Name>Spot Settings</Name>
 <NumElts>6</NumElts>
 <DBL>
 <Name>Intensity</Name>
 <Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Vortex</Name>
+<Val>-30.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Phase</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>X</Name>
+<Val>-47.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z</Name>
+<Val>180.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Spot Settings</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>Intensity</Name>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Vortex</Name>
@@ -146,7 +226,7 @@
 </DBL>
 <DBL>
 <Name>X</Name>
-<Val>200.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -159,7 +239,7 @@
 </Cluster>
 </Array>
 <Cluster>
-<Name>Value</Name>
+<Name>SLM Parameters</Name>
 <NumElts>5</NumElts>
 <DBL>
 <Name>Width</Name>
@@ -175,11 +255,11 @@
 </I32>
 <DBL>
 <Name>Centre Y</Name>
-<Val>0.47500000000000</Val>
+<Val>0.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>Centre X</Name>
-<Val>0.48500000000000</Val>
+<Val>0.48000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
